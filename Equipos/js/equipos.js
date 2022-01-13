@@ -1,3 +1,8 @@
+window.onload = function() {
+    $('#onload').fadeOut();
+    $('body').removeClass('hidden');
+}
+
 document.getElementById("iconoMenu").addEventListener("click", desplegarMenu);
 document.getElementById("iconoMenuCerrado").addEventListener("click", redesplegarMenu);
 
