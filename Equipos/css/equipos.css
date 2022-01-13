@@ -1,0 +1,104 @@
+.header {
+    width: 100%;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+* {
+    font-family: 'Bebas Neue';
+}
+a {
+    text-decoration: none;
+}
+.nav li {
+    background: linear-gradient(to bottom, rgb(17, 14, 190), rgb(5, 3, 158), rgb(13, 11, 139));
+    padding: 1.5%;
+}
+.nav li:hover {
+    background: linear-gradient(to bottom, rgb(12, 10, 129), rgb(3, 1, 85), rgb(7, 6, 70));
+}
+.nav li a {
+    color: white;
+    
+}
+body {
+    background-color: #cccccc;
+}
+@media (max-width: 700px) {
+    .header {
+        background-image: url(../img/ab2.jpg);
+        background-size: cover;
+        padding: 1%;
+    }
+    .icono {
+        position: relative;
+        width: 35%;
+    }
+    .nav {
+        width: 70%;
+        position: absolute;
+        right: 4.3%;
+        text-align: center;
+        font-size: 200%;
+        background-color: rgb(13, 11, 139);
+        display: none;
+        z-index: 1;
+    }
+    .iconoMenu, .iconoMenuCerrado {
+        position: relative;
+        width: 30%;
+        left: 34%;
+    }
+    .iconoMenuCerrado {
+        display: none;
+    }
+    .equipos {
+        width: 94%;
+        position: relative;
+        margin: 3%;
+        background-color: #ffffff;
+        padding: 3%;
+    }
+    .equipos h1 {
+        text-align: center;
+    }
+    .equipos h2{
+        text-align: center;
+    }
+    .botonesVerMas {
+        padding: 1%;
+        font-size: 100%;
+        color: #a3a3a3;
+        border: 1px solid #D5D3D3;
+        border-radius: 12px;
+    }
+
+}
+@media (min-width: 701px) {
+    .iconoMenu {
+        display: none;
+    }
+    .iconoMenuCerrado {
+        display: none;
+    }
+    .header {
+        background-image: url(../img/ab.jpg);
+        background-size: cover;
+        padding: 1%;
+        background-position-y: 20%;
+    }
+    .icono {
+        position: relative;
+        width: 13%;
+    }
+    .nav {
+        position: absolute;
+        display: inline-block;
+        width: 20%;
+        margin: 1%;
+        text-align: center;
+        font-size: 200%;
+        background-color: rgb(13, 11, 139);
+    }
+}
