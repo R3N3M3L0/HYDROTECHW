@@ -25,7 +25,7 @@ a {
 body {
     background-color: #cccccc;
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .header {
         background-image: url(../img/ab2.jpg);
         background-size: cover;
@@ -59,7 +59,7 @@ body {
         margin: 3%;
     }
 }
-@media (min-width: 701px) {
+@media (min-width: 601px) {
     .iconoMenu {
         display: none;
     }
