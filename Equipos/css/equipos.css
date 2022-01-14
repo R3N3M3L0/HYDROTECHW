@@ -35,6 +35,18 @@ body {
     align-items: center;
     background: #000;
 }
+.equipos h1 {
+    text-align: center;
+}
+.equipos h2{
+    text-align: center;
+}
+.botonesVerMas {
+    padding: 1%;
+    color: #a3a3a3;
+    border: 1px solid #D5D3D3;
+    border-radius: 12px;
+}
 @media (max-width: 600px) {
     .header {
         background-image: url(../img/ab2.jpg);
@@ -70,20 +82,6 @@ body {
         background-color: #ffffff;
         padding: 3%;
     }
-    .equipos h1 {
-        text-align: center;
-    }
-    .equipos h2{
-        text-align: center;
-    }
-    .botonesVerMas {
-        padding: 1%;
-        font-size: 100%;
-        color: #a3a3a3;
-        border: 1px solid #D5D3D3;
-        border-radius: 12px;
-    }
-
 }
 @media (min-width: 601px) {
     .iconoMenu {
@@ -110,5 +108,36 @@ body {
         text-align: center;
         font-size: 200%;
         background-color: rgb(13, 11, 139);
+    }
+    .equipos {
+        width: 72%;
+        display: inline-block;
+        position: relative;
+        left: 22%;
+        margin-top: 1%;
+        background-color: #ffffff;
+        padding: 1%;
+    }
+    .equipos h2 {
+        font-size: 300%;
+    }
+    .equipos h1 {
+        font-size: 400%;
+    }
+    .botonesVerMas {
+        padding: 0.3%;
+    }
+    .equipos p {
+        font-size: 150%;
+    }
+    .imagen {
+        position: relative;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #unidadMultifuncional {
+        width: 80%;
     }
 }
